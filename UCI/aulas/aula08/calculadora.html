@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <label for="num1">Primeiro número:</label>
+    <input type="text" id="num1">
+    <br><br>
+
+    <label for="num2">Segundo número:</label>
+    <input type="text" id="num2">
+    <br><br>
+
+    <label for="operacao">Escolha a operação:</label>
+
+    <select id="operacao">
+        <option value="1">Soma</option>
+        <option value="2">Subtração</option>
+        <option value="3">Múltiplicação</option>
+        <option value="4">Divisão</option>
+    </select>
+
+    <br><br>
+    <button onclick="calcular()">Calcular</button>
+    <h2>Resultado</h2>
+    <p id="resultado"></p>
+    <script src="calculadora.js"></script>
+</body>
+</html>
