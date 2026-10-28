@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Geek</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark"
+        aria-label="Navegação principal"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#inicio">Portal Geek</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuPrincipal"
+            aria-controls="menuPrincipal"
+            aria-expanded="false"
+            aria-label="Alternar navegação"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#animes">Animes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jogos">Jogos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#filmes-series">Filmes e séries</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-4">
+      <section id="inicio" class="hero p-4 p-lg-5 rounded-3 mb-5">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-lg-6">
+            <h1 class="mb-3">Bem-vindo ao Portal Geek</h1>
+            <p class="lead mb-4">
+              Um espaço para reunir conteúdos sobre cultura geek. Explore
+              animes, jogos, filmes e séries, e descubra curiosidades
+              interessantes.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              class="img-fluid rounded-3 w-100"
+              src="imagens/Senac_logo.svg"
+              alt="Arte gráfica representando o tema geek, elementos de animes, jogos e filmes"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="titulo-categorias" class="mb-5">
+        <h2 id="titulo-categorias" class="mb-4">Categorias em destaque</h2>
+        <div class="row g-4">
+          <section
+            id="animes"
+            class="col-12 col-md-6 col-lg-4"
+            aria-labelledby="titulo-animes"
+          >
+            <div class="categoria h-100 p-3 rounded-3">
+              <h3 id="titulo-animes" class="mb-3">Animes</h3>
+              <div class="row g-3">
+                <div class="col-12">
+                  <article class="card h-100 shadow-sm">
+                    <img
+                      class="card-img-top"
+                      src="https://i.pinimg.com/236x/2c/e2/b4/2ce2b4c037b5313c61118e7ff7e75339.jpg"
+                      alt="Descrição contextual da imagem escolhida"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h4 class="card-title">Berserk</h4>
+                      <p class="card-text">
+                        Berserk é um anime e manga japonês que acompanha as
+                        aventuras de Guts (O espadachin negro) em sua jornada de
+                        vingança.
+                      </p>
+                      <button
+                        class="btn btn-outline-primary mt-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#detalhesBerserk"
+                        aria-expanded="false"
+                        aria-controls="detalhesBerserk"
+                      >
+                        Ver mais
+                      </button>
+                      <div class="collapse mt-3" id="detalhesBerserk">
+                        <p class="mb-0">
+                          Guts é um guerreiro que enfrenta perigos em um
+                          universo de fantasia sombria.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-12">
+                  <article class="card h-100 shadow-sm">
+                    <img
+                      class="card-img-top"
+                      src="https://i.pinimg.com/1200x/d1/ec/56/d1ec56eaea2b1f7fb17834880083b383.jpg"
+                      alt="Descrição contextual da imagem escolhida"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h4 class="card-title">Dragon Ball Z</h4>
+                      <p class="card-text">
+                        Dragon Ball Z é um anime japonês que acompanha as
+                        aventuras de Goku e seus amigos.
+                      </p>
+                      <button
+                        class="btn btn-outline-primary mt-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#detalhesDBZ"
+                        aria-expanded="false"
+                        aria-controls="detalhesDBZ"
+                      >
+                        Ver mais
+                      </button>
+                      <div class="collapse mt-3" id="detalhesDBZ">
+                        <p class="mb-0">
+                          Acompanha Son Goku já adulto, casado com Chi-Chi e pai
+                          de Gohan, enquanto ele defende a Terra contra ameaças
+                          alienígenas e do espaço sideral cada vez mais
+                          poderosas.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-12">
+                  <article class="card h-100 shadow-sm">
+                    <img
+                      class="card-img-top"
+                      src="https://i.pinimg.com/736x/13/dd/27/13dd2701c167a682df00a7f56da96829.jpg"
+                      alt="Descrição contextual da imagem escolhida"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h4 class="card-title">One Piece</h4>
+                      <p class="card-text">
+                        One Piece é um anime japonês que acompanha as aventuras
+                        de Monkey D. Luffy e seus companheiros e com um grande
+                        objetivo: encontrar o One Piece, o lendário tesouro
+                        deixado pelo antigo Rei dos Piratas, Gol D. Roger, e se
+                        tornar o novo Rei dos Piratas. .
+                      </p>
+                      <button
+                        class="btn btn-outline-primary mt-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#detalhesOnePiece"
+                        aria-expanded="false"
+                        aria-controls="detalhesOnePiece"
+                      >
+                        Ver mais
+                      </button>
+                      <div class="collapse mt-3" id="detalhesOnePiece">
+                        <p class="mb-0">
+                          acompanha as aventuras de Monkey D. Luffy, um jovem
+                          cujo corpo ganhou as propriedades de borracha após
+                          comer acidentalmente uma Fruta do Diabo (Akuma no Mi),
+                          chamada Gomu Gomu no Mi
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="jogos"
+            class="col-12 col-md-6 col-lg-4"
+            aria-labelledby="titulo-jogos"
+          >
+            <div class="categoria h-100 p-3 rounded-3">
+              <h3 id="titulo-jogos" class="mb-3">Jogos</h3>
+              <div class="row g-3">
+                <div class="col-12">
+                  <article class="card h-100 shadow-sm">
+                    <img
+                      class="card-img-top"
+                      src="https://i.pinimg.com/1200x/6f/2a/1b/6f2a1b729ace1abc926122ad4635f391.jpg"
+                      alt="Arte gráfica verde com o texto Jogos"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h4 class="card-title">
+                        Jogo de Aventura / RPG recomendada
+                      </h4>
+                      <p class="card-text">
+                        Novo Jogo da Nintendo - Zelda: Ocarina Of Times REMAKE
+                      </p>
+                      <button
+                        class="btn btn-outline-primary mt-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#detalhesZelda"
+                        aria-expanded="false"
+                        aria-controls="detalhesZelda"
+                      >
+                        Ver mais
+                      </button>
+                      <div class="collapse mt-3" id="detalhesZelda">
+                        <p class="mb-0">
+                          Acompanha Link, um garoto que vive na Floresta Kokiri,
+                          em uma missão para impedir que o rei maligno Ganondorf
+                          conquiste o reino de Hyrule e a mítica Triforce
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-12">
+                  <article class="card h-100 shadow-sm">
+                    <img
+                      class="card-img-top"
+                      src="https://i.pinimg.com/736x/5f/8b/08/5f8b08e9dc7f49b5004d970fff3be692.jpg"
+                      alt="Arte gráfica verde com o texto Jogos"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h4 class="card-title">Jogo de plataforma recomendado</h4>
+                      <p class="card-text">
+                        crash bandicoot 4 it's about time - é um jogo eletrônico
+                        de plataforma de 2020 desenvolvido pela Toys for Bob e
+                        publicado pela Activision.
+                      </p>
+                      <button
+                        class="btn btn-outline-primary mt-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#detalhesCrash"
+                        aria-expanded="false"
+                        aria-controls="detalhesCrash"
+                      >
+                        Ver mais
+                      </button>
+                      <div class="collapse mt-3" id="detalhesCrash">
+                        <p class="mb-0">
+                          é uma continuação direta de Crash Bandicoot 3: Warped,
+                          ignorando os títulos lançados após a trilogia original
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-12">
+                  <article class="card h-100 shadow-sm">
+                    <img
+                      class="card-img-top"
+                      src="https://i.pinimg.com/736x/00/77/2b/00772beb27653f631c815e8b6f188932.jpg"
+                      alt="Arte gráfica verde com o texto Jogos"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h4 class="card-title">MMORPG recomendado</h4>
+                      <p class="card-text">
+                        Warcraft é a história de um universo fictício de
+                        fantasia, no qual se desenrolam séries de livros e jogos
+                        para computador homônimos que são publicados pela
+                        Blizzard Entertainment..
+                      </p>
+                      <button
+                        class="btn btn-outline-primary mt-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#detalhesWOW"
+                        aria-expanded="false"
+                        aria-controls="detalhesWOW"
+                      >
+                        Ver mais
+                      </button>
+                      <div class="collapse mt-3" id="detalhesWOW">
+                        <p class="mb-0">
+                          Gira em torno da luta épica pelo controle do planeta
+                          Azeroth, dividida principalmente no conflito histórico
+                          entre duas facções rivais: a Aliança (humanos, elfos,
+                          anões e aliados) e a Horda (orcs, trolls e outros
+                          povos)
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="filmes-series"
+            class="col-12 col-md-6 col-lg-4"
+            aria-labelledby="titulo-filmes"
+          >
+            <div class="categoria h-100 p-3 rounded-3">
+              <h3 id="titulo-filmes" class="mb-3">Filmes e séries</h3>
+              <div class="row g-3">
+                <div class="col-12">
+                  <article class="card h-100 shadow-sm">
+                    <img
+                      class="card-img-top"
+                      src="https://i.pinimg.com/736x/73/f9/4c/73f94c5cfe7452002ee3488a7d7d1fe6.jpg"
+                      alt="Arte gráfica marrom com o texto Filmes e séries"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h4 class="card-title">Uma produção recomendada</h4>
+                      <p class="card-text">
+                        Conheça uma produção escolhida para quem gosta de ficção
+                        científica e mind blown.
+                      </p>
+                      <p class="card-text">
+                        é um filme de ação e ficção científica dirigido pelas
+                        irmãs Wachowski e estrelado por Keanu Reeves, Laurence
+                        Fishburne e Carrie-Anne Moss.
+                      </p>
+                      <button
+                        class="btn btn-outline-primary mt-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#detalhesMatrix"
+                        aria-expanded="false"
+                        aria-controls="detalhesMatrix"
+                      >
+                        Ver mais
+                      </button>
+                      <div class="collapse mt-3" id="detalhesMatrix">
+                        <p class="mb-0">
+                          Thomas A. Anderson vive uma vida dupla: de dia, é um
+                          programador para uma companhia de software, enquanto à
+                          noite é um hacker, invadindo sistemas de computador
+                          ilegalmente e roubando informações, sob o apelido de
+                          Neo. Durante a sua vida como pirata informático, Neo
+                          convive com uma pergunta constante: "O que é a Matrix?
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="row mb-5" aria-labelledby="titulo-semana">
+        <div class="col-12 col-md-8 offset-md-2">
+          <div class="chamada p-4 rounded-3 text-center shadow-sm">
+            <h2 id="titulo-semana" class="mb-3">Recomendação da semana</h2>
+            <p class="mb-3">
+              Qual conteúdo merece destaque na próxima atualização do Portal
+              Geek?
+            </p>
+            <a class="btn btn-primary" href="#curiosidade"
+              >Veja nossa curiosidade</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside
+      id="curiosidade"
+      class="container mb-5"
+      aria-labelledby="titulo-curiosidade"
+    >
+      <div class="curiosidade p-4 rounded-3">
+        <h2 id="titulo-curiosidade" class="mb-3">Curiosidade geek</h2>
+        <p class="mb-0">Uma curiosidade relacionada aos temas da página</p>
+      </div>
+      <!-- CARROSSEL  -->
+      <!-- Justificativa - A ultilisação de um carrossel para ver mais variedades informativas
+       como uma galeria visual   -->
+      <!-- Resoluções: 375 px(col-12)celulares/móveis, 768 px (col-md-8) Tablets e 1280 px (col-xl-5) Monitores-->
+      <div class="col-12 col-md-8 col-xl-5 mx-auto">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://i.pinimg.com/1200x/90/32/e9/9032e9e9e37301b5803f78495bb41e06.jpg"
+                class="d-block w-100 h-100 object-fit-cover"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Genshin Impact</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://i.pinimg.com/736x/ac/0e/c9/ac0ec95edd85a16fc56ebfb2984cc7eb.jpg"
+                class="d-block w-100 h-100 object-fit-cover"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://i.pinimg.com/1200x/0e/57/fd/0e57fd1c4441278ad00570e2ee8d4c5c.jpg"
+                class="d-block w-100 h-100 object-fit-cover"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <footer class="rodape py-4 text-center">
+      <div class="container">
+        <p class="mb-0">Projeto desenvolvido durante a UC de Front-end.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+* { /* isso é chamado de seletor universal, ele seleciona todos os elementos da página */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin: 0; /* Isso remove a margem padrão do navegador */
+}
+
+header {
+  background-color: #321e81;
+  color: #fff;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.destaque {
+  font-weight: bold;
+}
+
+.categoria {
+  background-color: #f1f5f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#inicio {
+  background-color: #eef2ff;
+  padding: 20px;
+}
+.card-conteudo{
+  border: #cbd5e1;
+  padding: 24px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+section {
+  margin-bottom: 24px;
+}
+
+main {
+  max-width: 900px; /* Define a largura máxima do conteúdo principal */
+  margin: 32px auto; /* Centraliza o conteúdo horizontalmente */
+  padding: 0 20px; /* Adiciona preenchimento lateral */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+aside {
+    max-width: 900px;
+    margin: 0 auto 32px auto;
+    padding: 20px;
+    background-color: #fff7ed;
+}
+
+footer {
+  background-color: #1e293b;
+  color: #fff;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+ 

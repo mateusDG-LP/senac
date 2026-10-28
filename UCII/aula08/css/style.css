@@ -1,0 +1,68 @@
+/* IDENTIDADE DO PROJETO: regras complementares ao Bootstrap */
+:root {
+  --cor-marca: #321e81;
+  --cor-fundo: #f8fafc;
+  --cor-texto: #1e293b;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* Cor própria do Portal Geek, diferente da cor padrão do Bootstrap. */
+.navbar.bg-dark {
+  background-color: var(--cor-marca) !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+/* O Bootstrap organiza as colunas, enquanto nosso CSS define a identidade visual. */
+.hero {
+  background-color: #eef2ff;
+}
+
+.hero img {
+  object-fit: cover;
+}
+
+.categoria {
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+}
+
+/* Altura e recorte consistentes para imagens de capa dos Cards. */
+.card-img-top {
+  height: 170px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #271760;
+}
+
+.chamada {
+  background-color: #e9e5ff;
+  border: 1px solid #d4ccfa;
+}
+
+.curiosidade {
+  background-color: #fff7ed;
+  border: 1px solid #f6d7a6;
+}
+
+.rodape {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #ffb703 !important;
+  outline-offset: 3px !important;
+}
+
