@@ -15,3 +15,5 @@ TESTES DE ERROS:
  6 "Migrations " para o banco de dados, ou seja criei apartir de um modelo os campos para o meu banco de dados,
     . pronto criado  minha tabela Tasks ou Lista de Atividades.    
     
+    Meu GitHub:
+    https://github.com/mateusDG-LP/senac/blob/main/UCIII/aula03/CANES/README.md
